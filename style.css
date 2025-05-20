@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+main {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+section {
+  color: red;
+  border: 4px double red;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  border-bottom: 1px solid red;
+  padding: 8px 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  padding: 24px 0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  border: 1px solid red;
+  background: red;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 8px;
+  box-shadow: 0 4px #7a0000;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  box-shadow: 0 1px #7a0000;
+  transform: translateY(3px);
+}
